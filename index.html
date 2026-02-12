@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Axiora</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Axiora</h1>
+    <p class="subtitle">Own Your Day</p>
+
+    <div class="card">
+      <h2>Today's Top 3 Priorities</h2>
+      <input type="text" id="taskInput" placeholder="Enter priority...">
+      <button onclick="addTask()">Add</button>
+      <ul id="taskList"></ul>
+    </div>
+
+    <div class="card">
+      <h2>Focus Timer</h2>
+      <p id="timer">25:00</p>
+      <button onclick="startTimer()">Start</button>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

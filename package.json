@@ -1,0 +1,15 @@
+{
+  "name": "axiora",
+  "version": "1.0.0",
+  "description": "Minimal Electron starter",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^31.7.7"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0"
+  }
+}
