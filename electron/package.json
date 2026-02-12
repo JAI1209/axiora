@@ -1,7 +1,7 @@
 {
-  "name": "axiora",
+  "name": "axiora-electron",
   "version": "1.0.0",
-  "description": "Minimal Electron starter",
+  "description": "Axiora Electron app",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -9,5 +9,7 @@
   "devDependencies": {
     "electron": "^31.7.7"
   },
-  "dependencies": {}
+  "dependencies": {
+    "electron-store": "^9.0.0"
+  }
 }
